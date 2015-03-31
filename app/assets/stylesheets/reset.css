@@ -16,7 +16,7 @@ table,  tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed, 
  footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+time, mark, audio, video ,div{
 	margin: 0;
 	padding: 0;
 	border: 0;

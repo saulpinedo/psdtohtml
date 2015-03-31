@@ -1,0 +1,97 @@
+.rotator{
+	background: #9fc63f;
+	clear: both;
+	position: relative;
+	height: 415px;
+}
+
+.content h2{
+	padding: 30px 0 30px ;
+	text-align: center;
+	font-size: 28px;
+	background: url('/assets/bg_dash.png') bottom right repeat-x;
+	margin: 0 auto;
+}
+.services{
+	margin: 30px auto 50px auto;
+	overflow: hidden;
+}
+	.services ul{
+
+	}
+		.services li{
+			float: left;
+			margin-right: 50px;
+		
+		}
+			.services li:last-child{
+				margin.right: 0;
+			}
+
+			.services .discOuter{
+				background: #fff;
+				width: 178px;
+				height: 178px;
+				margin-bottom: 18px;
+				border:1px solid #dedede;
+				border-radius: 100px;			
+			}
+
+			.services .discInner{
+				margin: 19px;
+				background: #9fc63f;
+				width:140px;
+				height:140px ;
+				border-radius: 100px;
+			}
+			.services .discInner > .icon{
+				background-repeat: no-repeat;
+				background-position: center center;
+				width: 140px;
+				height: 140px;
+			}
+		.services .amazing{
+			background-image: url(../assets/amazing.png);
+		}
+		.services .hour{
+			background-image: url(../assets/24hour.png);
+		}
+		.services .web{
+			background-image: url(../assets/web.png);
+		}
+		.services .mobile{
+			background-image: url(../assets/mobile.png);
+		}
+	.services h3{
+		text-align: center;
+		font-size: 24px;	
+		margin-bottom: -10px;
+	}
+	.services h5{
+		text-align: center;
+		font-size: 14px;
+	}
+.subHeader{
+	background: url(../assets/bg_dash.png) center repeat-x;
+	clear: both;
+	height: 20px;
+	margin-bottom: 35px;
+}
+	.subHeader h4{
+		background: #f5f5f5;
+		font-size: 20px;
+		height: 20px;
+		margin-left: 35px;
+		padding-top: 4px;
+		width:275px;
+	}
+	.portItem{
+		border:1px solid #ebebeb;
+		float: left;
+		width: 465px;
+		margin-bottom: 25px;
+		margin-right: 26px;
+	}
+	.portItem:nth-child(2n+1){
+		margin-right: 0;
+	}
