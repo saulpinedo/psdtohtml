@@ -68,20 +68,81 @@ header{
 /*
 :::::::::::::::::::::::::::::::::::::::::.rotation
 */
+.rotator{
+	background: #9fc63f;
+	clear: both;
+	position: relative;
+	height: 380px;
+}
 .rotator div{
 	width: 960px;
 	margin: 0 auto;
+	overflow: hidden;
 }
 .rotator ul{
 	padding:0 0;
 }
+.rotator .prev{
+	background-image: url(../assets/backward.png);
+	display: block;
+	height: 60px;
+	width:60px;
+	left: 100px;
+	margin-top: -30px;
+	top: 50%;
+	position: absolute;
+}
+.rotator .next{
+	background-image: url(../assets/forward.png);
+	display: block;
+	height: 60px;
+	width:60px;
+	right: 100px;
+	margin-top: -30px;
+	top: 50%;
+	position: absolute;
+}
+.rotator .rotatorwrapper{
+	height: 420px;
+	margin:0 auto ;
+	width: 960px;
+}
+.rotator ul{
+	position: relative;
+	top: 0;
+	width: 2000em;
 
+}
+.rotator li{
+	float: left;
+	height: 428px;
+	width: 960px;
+	position: relative;
+	overflow: hidden;
+
+}
+.slide0,.slide1,.slide2{
+	background: url(../assets/slide.png);
+	background-repeat: no-repeat;
+
+
+}
+	.slide0 div,.slide1 div,.slide2 div{
+		color: #fff;
+		font-size: 25px;
+		line-height: 1.5;
+		position: absolute;
+		right: 0;
+		text-align: center;
+		top: 75px;
+		width: 400px;
+	}
 /*
 :::::::::::::::::::::::::::::::::::::::::.content
 */	 	
 .content{
-	margin: 0 auto 140px auto;
-	overflow: hidden;
+	margin: 0 auto 140px  auto;
+
 	width: 960px;
 }
 .content h2{
